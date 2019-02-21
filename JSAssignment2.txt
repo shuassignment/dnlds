@@ -1,0 +1,45 @@
+1. Write a JS program to create object of person with fields as follows:-
+
+fname - string
+lname - string
+age - int
+skills - array
+address - object
+	city - string
+	pincode - int
+dateOfBirth - Date
+married - Boolean
+profession - string
+
+Create minimum 2 objects and display the object's detail uisng global print method.
+
+
+2. Modify the above program to create 2 objects, amitabh and abhishek, here abhishek has some common properties from amitabh, try to use it such common properties from amitabh instead of creating it in abhishek.
+
+
+3. Modify the above code to create third object as "Aaradhya", this object shares the common properties from amitabh as well as abhishek accordingly demostrate on your own.
+
+
+4. Create a JS program to implement below:-
+
+	   BankAccount
+		|(accountNumber)
+		|(accountHolderName)
+		|(accountBalance)
+	-------------------------
+	|			|
+	Savings			Current
+	    (isSalary)		     (odLimit)
+
+
+Now, 
+create 1 object of savings with accountNumber, accountHolderName, accountBalance and isSalary.
+create 1 object of currrent with accountNumber, accountHolderName, accountBalance and odLimit.
+
+use savings account object to call a function withdraw(amount), that will subtract the amount from the accountBalance, Note that accountBalance should not go below 0.
+
+use current account object to calla function withdraw(amount), that will subtract the amount from the accountBalance, Note that accountBalance should not go below negative of odLimit.
+
+Now, call getCurrentBalance() from both the object, that will return the accountBalance of the object used to call this method.
+
+
